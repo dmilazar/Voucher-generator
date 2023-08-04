@@ -1,0 +1,5 @@
+parameters:
+  # Auth
+  app_secret: 'top-secret-code'
+
+
