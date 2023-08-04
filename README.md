@@ -2,26 +2,26 @@
 
 ### Setup & Installation
 
-1. Clone the repository:
-git clone https://github.com/dmilazar/voucher-generator.git
-cd voucher-generator
+1. Clone the repository: <br>
+git clone https://github.com/dmilazar/voucher-generator.git <br>
+cd voucher-generator <br>
 
-2. Install dependencies:
-composer install
+2. Install dependencies: <br>
+composer install <br>
 
-3. Configure environment variables:
-- Create a copy of the `.env` file:
+3. Configure environment variables: <br>
+- Create a copy of the `.env` file: <br>
   ```
   cp .env.dist .env
   ```
-- Open the `.env` file and update it with your specific configuration details.
+- Open the `.env` file and update it with your specific configuration details. <br>
 
 
-4. Create the database and run migrations:
-php bin/console doctrine:database:create
+4. Create the database and run migrations: <br>
+php bin/console doctrine:database:create <br>
 php bin/console doctrine:migrations:migrate
 
-5. Start the local web server:
-symfony server:start
+5. Start the local web server: <br>
+symfony server:start <br>
 
-6. **Note**: There is an `EY.sql` database file located at the root of the project.
+6. **Note**: There is an `EY.sql` database file located at the root of the project. <br>
